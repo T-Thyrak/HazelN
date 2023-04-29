@@ -45,7 +45,6 @@ namespace Hazel
         KeyReleasedEvent(int keycode) : KeyEvent(keycode)
         {
         }
-        }
 
         std::string ToString() const override
         {
